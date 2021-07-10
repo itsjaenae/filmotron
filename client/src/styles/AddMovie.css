@@ -1,0 +1,63 @@
+
+
+.input-container {
+    position: relative;
+    text-align: left;
+}
+
+.input-container > label {
+    margin: 5px 0px;
+    color: #fff;
+}
+
+.input-container > input {
+    width: 100%;
+    padding: 10px 40px;
+    height: 50px;
+    background: var(--nero);
+    border-left: 2px solid var(--red);
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-radius: 3px;
+    color: #fff;
+    overflow: hidden;
+}
+
+.input-container > input:focus {
+    outline: 0;
+}
+
+.input-container > .input-icon {
+    position: absolute;
+    color: #fff;
+    z-index: 2;
+    text-align: left;
+    top: 50px;
+    left: 15px;
+}
+
+.input-container > input::placeholder {
+    color: rgb(182, 182, 182);
+}
+
+  
+.addmovie-button {
+    background: var(--green);
+    border-radius: 4px;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 24px 0 12px !important;
+    padding: 10px !important;
+    border: 0;
+    color: #111111;
+    cursor: pointer !important;
+    margin-bottom: 0.1rem !important;
+    }
+    .register-submit:disabled {
+    opacity: 0.5;
+    }  
+    .register-submit:hover{
+      background: #4a8304 !important;
+    }
+    

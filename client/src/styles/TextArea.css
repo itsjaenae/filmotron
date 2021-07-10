@@ -1,0 +1,49 @@
+
+
+.text-area-container {
+    position: relative;
+    text-align: left;
+}
+
+.text-area-container > label {
+    margin: 5px 0px;
+    color: #fff;
+}
+
+.text-area-container > textarea {
+    width: 100%;
+    padding: 10px 40px;
+   background: var(--nero);
+   border-left: 2px solid var(--red);
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.text-area-container > textarea:focus {
+    outline: 0;
+}
+
+.text-area-container > .text-area-icon {
+    position: absolute;
+   /* color: var.$icon-color; */
+    z-index: 2;
+    text-align: left;
+    top: 46px;
+    left: 15px;
+}
+
+.text-area-container > .text-area-icon.no-label {
+    position: absolute;
+    color: rgb(180, 180, 180);
+    z-index: 2;
+    text-align: left;
+    top: 14px;
+    left: 15px;
+}
+
+.text-area-container > textarea::placeholder {
+    color: rgb(172, 172, 172);
+}

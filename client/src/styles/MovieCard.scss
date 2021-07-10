@@ -1,0 +1,118 @@
+.card-container {
+    position: relative;
+    width: 250px !important;
+    height: 360px !important;
+    padding: 2rem 1rem !important;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.5s ease-in-out;
+   
+    //background
+    & img,
+    &::before {
+     
+        border-radius: 8px !important;
+    }
+
+    &:hover {
+      
+        transform: translateY(10px) !important;
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100% !important;
+        height: 100%;
+        background: linear-gradient(to bottom, #8ec5fce3, #e0c3fce3) !important;
+        z-index: 2;
+        transition: 0.5s all;
+        opacity: 0;
+    }
+    &:hover::before {
+        opacity: 1;
+    }
+    & img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    //info
+    & .info {
+        position: relative !important;
+        z-index: 3;
+        color: black;
+        opacity: 0;
+        transform: translateY(30px) !important;
+        transition: 0.5s all;
+        overflow-y: scroll;
+        -ms-overflow-style: none; /* IE 11 */
+        scrollbar-width: none; /* Firefox 64 */
+    }
+
+    & .info::-webkit-scrollbar {
+        display: none !important;
+    }
+
+    &:hover .info {
+        opacity: 1;
+        transform: translateY(0px) !important;
+    }
+
+    & .info {
+        letter-spacing: 1px !important;
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+    & .info hr {
+        margin-top: 0.5rem !important;
+        margin-bottom: 0.5rem;
+        border-top: 1px solid rgba(0, 0, 0, 0.2) !important;
+    }
+}
+
+// .movieCard{
+//     margin: 20px !important;
+// }
+.card-color{
+    background-color: var(--green) !important;
+    border: none !important;
+   margin: 20px !important;
+   padding: 10px !important;
+}
+
+.card-color:hover{
+    background-color: var(--hover) !important;
+}
+
+.card-colorTwo{
+    padding: 10px !important;
+}
+// .card-container > img {
+//     position: absolute;
+//     display: flex;
+//     width: 60px;
+//     height: 60px;
+//     top: 0px;
+//     right: 0px;
+//     z-index: 2;
+//     align-items: center;
+//     justify-content: center;
+
+//     & > .icon {
+//         font-size: 60px;
+//         // color: $icon-color;
+//     }
+//     & > span {
+//         position: absolute;
+//         color: white;
+//         font-weight: bold;
+//     }
+
+// }

@@ -1,0 +1,60 @@
+
+ :root{
+  --poppins: 'Poppins', sans-serif;
+  --sans: 'Open Sans', sans-serif;
+   --green: #89fc00;
+   --hover: #4a8304;
+   /* --green: #8bd303; */
+  --black: #111;
+  --nero: #252525;
+  --input-bg: #f0f8ff;
+  --input-bg-hover:  #c0bbb3;
+  --transition: all 0.4s ease;
+  --red: red;
+  --icon-color: #fbc531;
+}
+
+html {
+  box-sizing: border-box !important;
+}
+
+*{
+  box-sizing: border-box !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-family: var(--sans) !important;
+}
+*:before, *:after {
+  box-sizing: border-box !important;
+}
+html, body{
+  color: #252525 !important;
+  height: 100%;
+  margin: 0 !important;
+  padding: 0;
+  scroll-behavior: smooth;
+  line-height: 1.5 !important;
+  font-family: var(--poppins) !important;
+  background-color: var(--black) !important;
+  overflow-x: hidden !important;
+  /* overflow: hidden; */
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+.background-container {
+  scroll-behavior: smooth;
+  min-height: 100vh;
+  color:#fff;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}

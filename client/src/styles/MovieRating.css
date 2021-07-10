@@ -1,0 +1,8 @@
+
+.movie-rating {
+    display: flex;
+    align-items: center;
+}
+.movie-rating > .icon {
+    color: var(--icon-color);
+}

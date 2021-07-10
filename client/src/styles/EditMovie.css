@@ -1,0 +1,14 @@
+.editMovie{
+    background-color: var(--green);
+    border: none;
+    padding: 10px !important;
+    color: var(--nero);
+}
+
+.editMovie:hover{
+    background-color: var(--hover);
+}
+
+.text-center{
+    color: rgb(182, 182, 182);
+}

@@ -1,0 +1,24 @@
+.user-ratingMargin{
+   margin-bottom: 3px !important;
+ 
+}
+
+.user-rating {
+ 
+    & input[type="radio"] {
+        display: none;
+      
+    }
+    .star {
+        cursor: pointer;
+        transition: color 200ms;
+   
+    }
+}
+
+.userRating{
+
+    margin: 20px !important;
+    color: #fff;
+   
+}

@@ -1,0 +1,120 @@
+
+.movie-container{
+    position: relative;
+    margin-top: 80px !important;
+    margin-left: 60px !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* max-width: 1640px; */
+}
+
+.movie-info-image {
+    max-height: 500px;
+    border-radius: 0.6rem;
+}
+.movie-info-content {
+    color: #fff;
+ 
+}
+
+.movie-title{
+    flex-direction: row !important;
+    display: flex;
+    color: #fff;
+    /* display: inline-flex; */
+    justify-content: left;
+    margin-left: 30px !important;
+}
+
+.subtext {
+    flex-direction: row !important;
+    display: flex;
+    font-size: 20px;
+    color: rgb(206, 206, 206);
+    /* display: inline-flex; */
+    justify-content: left;
+    margin-left: 30px !important;
+}
+
+
+.subtext .ghost {
+    margin: 0 0.5em !important;
+
+    /* flex: 1 1 auto; */
+}
+
+.rating{
+    flex-direction: row;
+    font-size: 20px;
+    color: rgb(160, 160, 160);
+    margin-left: 30px !important;
+   /* margin-top: 3rem !important;  */
+}
+
+.description {
+    /* margin-top: 150px !important; */
+    color: rgb(226, 226, 226);
+    font-size: 18px !important;
+    margin-left: 30px !important;
+}
+.movie-link {
+    color: var(--green);
+}
+.movie-link:hover{
+    color: var(--hover);
+}
+
+
+
+
+hr.movie-info {
+    margin-top: 96px !important;
+    border-top: 8px solid #222;
+    width: 100% !important;
+}
+
+.movie-button{
+        background-color: var(--green);
+        border: none;
+        padding: 10px !important;
+        color: var(--nero);
+        margin: 10px !important;
+    }
+    
+.movie-button:hover{
+        background-color: var(--hover);
+    }
+
+
+
+.review {
+    margin-top: 120px !important;
+}
+
+.review-button{
+    background-color: var(--green);
+    border: none;
+    padding: 10px !important;
+    color: var(--nero);
+}
+
+.review-button:hover{
+    background-color: var(--hover);
+}
+
+
+
+    /* @media screen and (min-width: 3840px) 
+  @media screen and(max-width: 1000px) { */
+    /* .resize {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr !important;
+        grid-template-rows: 1fr !important;
+    } */
+    /* .subtext{
+       margin-left: 1140px !important;
+    }
+ }  */
+
+    

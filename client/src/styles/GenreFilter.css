@@ -1,0 +1,43 @@
+
+.filter{
+    margin-top: 80px !important;
+}
+
+.genre-filter-container  .list-item {
+        text-align: left !important;
+        background: var(--input-bg) !important;
+        color: var(--nero) !important;
+        font-size: 16px !important;
+        padding: 12px !important;
+    }
+    .list-item:hover {
+        cursor: pointer;
+        background: var(--input-bg-hover) !important;
+    }
+    .list-item-active {
+     
+        border-left-color: var(--red)!important;
+        border-left-width: 2px !important;
+        transition: 0.3s ease-in !important;
+    }
+
+.genre-filter-container > label {
+    margin: 5px 0px;
+    color: #fff;
+  
+}
+/* ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  ul li {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    /* background-color: #f6f6f6;
+    padding: 12px;
+   max-width: 20%;
+  }  */
+  

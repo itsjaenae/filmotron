@@ -1,0 +1,27 @@
+
+
+ul.user-reviews {
+    list-style: none;
+    padding: 0;
+
+    & .author-header {
+     
+        color: #fff !important;
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+    }
+    & .content {
+        font-size: 1rem;
+        line-height: 2rem;
+        font-weight: 400;
+        color: #fff !important;
+    }
+    & .content .icon {
+        color: var(--icon-color);
+    }
+    & > li {
+        border-bottom: 8px solid #222;
+        width: 100% !important;
+    }
+}
